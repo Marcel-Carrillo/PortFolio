@@ -26,6 +26,21 @@ export const Principal = () => {
   const handleGithubClick = () => {
     window.open("https://github.com/Marcel-Carrillo")
   }
+  const handleGithubClickCalc = () => {
+    window.open("https://github.com/Marcel-Carrillo/Calculadora")
+  }
+  const handleGithubClickInsta = () => {
+    window.open("https://github.com/Marcel-Carrillo/Prueba-Instagram")
+  }
+  const handleGithubClickAll = () => {
+    window.open("https://github.com/Marcel-Carrillo/AllCinema")
+  }
+  const handleGithubClickViajes = () => {
+    window.open("https://github.com/Marcel-Carrillo/Viajes.git")
+  }
+  const handleGithubClickBiobuk = () => {
+    window.open("https://github.com/Marcel-Carrillo/Biobuk")
+  }
 
   const frontEnd = ["react.png", "javascript.png", "typescript.png"];
   const backEnd = ["node.png", "express.png", "mysql.png"];
@@ -72,7 +87,14 @@ export const Principal = () => {
 }
       <div className="bodyPrincipal">
         <div>
-          <h1 className="titulo">Bienvenidos al portfolio de Marcel Carrillo</h1>
+          <h1 className="titulo">Mi nombre es Marcel Carrillo</h1>
+          <div className="divfront">
+            <p>Soy un apasionado de la tecnologia , estoy ahora inmerso en el mundo de la programacion y el desarrollo web, por fin he dado con lo que realmente me gusta que es la programacion, he estado trabajando muchos años en temas tecnologicos y espero que disfruteis viendo mi web.</p>
+          </div>
+        </div>
+        <h1>Tecnologias</h1>
+        <div className="divfront">
+        <p>Por ahora estas son las tecnologias que he aprendido y en las que sigo profundizando</p>
         </div>
       <h1 className="h1Front">Front-end</h1>
         <div className="divfront">
@@ -140,6 +162,24 @@ export const Principal = () => {
             </div>
           ))}
         </div>
+          <h1>Mis proyectos</h1>
+          <div className="divfront"><p>Estos son los proyectos que he realizado durante mi formacion y tambien algunas pruebas tecnicas que he realizado a posteriori</p></div>
+          <div className="divfront">
+              <div className="divimg"><p>Calculadora realizada con Vanilla JavaScript</p><img className="imgnav" src="github.png" onClick={handleGithubClickCalc}/><img className="imgpro" src="calculadora.png"/></div>
+             </div>
+          <div className="divfront">
+              <div className="divimg"><p>Pequeña prueba tecnica de una copia de Instagram realizada con clases de Javascript</p><img className="imgnav" src="github.png" onClick={handleGithubClickInsta}/><img className="imgpro" src="instagram.png"/></div>
+             </div>
+          <div className="divfront">
+              <div className="divimg"><p>Proyecto simulando un club de cine, realizado con NODE</p><img className="imgnav" src="github.png" onClick={handleGithubClickAll}/><img className="imgpro" src="allcinema.png"/></div>
+             </div>
+          <div className="divfront">
+              <div className="divimg"><p>Proyecto realizado con REACT simulando una red social de viajes</p><img className="imgnav" src="github.png" onClick={handleGithubClickViajes}/><img className="imgpro" src="viajes.png"/></div>
+             </div>
+          <div className="divfront">
+              <div className="divimg"><p>MVP Biobuk proyecto completo con NODE, REACT y MySQL</p><img className="imgnav" src="github.png" onClick={handleGithubClickBiobuk}/><img className="imgpro" src="biobuk.png"/></div>
+             </div>
+
       </div>
       <div class="light x1"></div>
       <div class="light x2"></div>

@@ -1,9 +1,9 @@
 .bodyPrincipal{
+  min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
     background: radial-gradient(#6186b9,#1c036d);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
@@ -13,7 +13,6 @@
     -moz-animation: fadeIn 1 1s ease-out;
     -o-animation: fadeIn 1 1s ease-out;
     animation: fadeIn 1 1s ease-out;
-
 }
 .imgnav{
     height: 50px;
@@ -78,8 +77,18 @@
   }
 }
 .titulo{
-  margin: 200px;
+  margin-top: 200px;
+  margin-bottom: 15px;
 }
+.imgpro{
+  height: 30vh;
+}
+
+
+
+
+
+
 .light {
     position: absolute;
     width: 0px;
@@ -93,7 +102,6 @@
     right: 0px;
     margin: auto;
   }
-  
   .x1{
   -webkit-animation: floatUp 4s infinite linear;
   -moz-animation: floatUp 4s infinite linear;
