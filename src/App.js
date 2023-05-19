@@ -1,11 +1,11 @@
-import './App.css';
-import { PortBrowser } from './routes/PortBrowser';
+import "./App.css";
+import { PortBrowser } from "./routes/PortBrowser";
 
 function App() {
   return (
-    <div>
-      <PortBrowser/>
-    </div>
+    <>
+      <PortBrowser />
+    </>
   );
 }
 
