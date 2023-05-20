@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Nav, Navbar, Row, Col } from "react-bootstrap";
 import Curriculum from "../Descargas/Curriculum.pdf";
+import "./NavbarPrincipal.scss"
 
 export const NavbarPrincipal = ({ showContact, setShowContact }) => {
   const handleLinkedInClick = () => {
@@ -18,13 +19,13 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="imgnav" href="">
+              <Nav.Link className="imgnav" href="#Inicio" >
                 Home
               </Nav.Link>
-              <Nav.Link className="imgnav" href="">
+              <Nav.Link className="imgnav" href="#Tecnologias" >
                 Tecnologias
               </Nav.Link>
-              <Nav.Link className="imgnav" href="">
+              <Nav.Link className="imgnav" href="#Proyectos" >
                 Proyectos
               </Nav.Link>
               <Nav.Link
@@ -34,7 +35,7 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
               >
                 Download CV
               </Nav.Link>
-              <Nav.Link className="imgnav" href="">
+              <Nav.Link className="imgnav" href="#Sobremi">
                 Sobre mi
               </Nav.Link>
             </Nav>

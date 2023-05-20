@@ -1,19 +1,19 @@
 .container-fluid {
   padding: 0 !important;
 }
-.coltitulo {
-  padding: 0 !important;
-}
-.h1contact {
-  padding: 0 !important;
-}
-col {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-.padinggg {
-  padding: 0 !important;
-}
+// .coltitulo {
+//   padding: 0 !important;
+// }
+// .h1contact {
+//   padding: 0 !important;
+// }
+// col {
+//   padding-right: 0 !important;
+//   padding-left: 0 !important;
+// }
+// .padinggg {
+//   padding: 0 !important;
+// }
 .bodyPrincipal {
   padding: 0 !important;
   min-height: 100%;
@@ -47,13 +47,13 @@ col {
 .container {
   padding: 0 !important;
 }
-.navbar {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0;
-  width: 100%;
-  margin: auto;
-}
+// .navbar {
+//   position: absolute !important;
+//   top: 0 !important;
+//   left: 0;
+//   width: 100%;
+//   margin: auto;
+// }
 .imgtech {
   width: 120px;
   height: 120px;
@@ -69,11 +69,17 @@ col {
 }
 .divfront {
   background-color: white;
+  border: 2px solid transparent;
   border-radius: 20px;
   padding: 50px;
   margin-bottom: 35px;
   width: fit-content;
   align-items: center;
+}
+.divfront:hover{
+  border-color: black;
+  box-shadow: 0px 0px 6px 5px;
+transition: box-shadow 0.3s ease;;
 }
 .divimg {
   color: black;
@@ -107,7 +113,9 @@ col {
   align-items: center;
   text-align: center;
 }
-
+h1{
+  color: white;
+}
 .light {
   position: absolute;
   width: 0px;

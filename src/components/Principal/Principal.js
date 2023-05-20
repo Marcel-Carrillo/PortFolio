@@ -1,23 +1,10 @@
 import { React, useState } from "react";
-import { Container, Form, Button, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./Principal.scss";
-
 import { NavbarPrincipal } from "../Navbar/NavbarPrincipal";
 
 export const Principal = () => {
-  const [mensaje, setMensaje] = useState("");
   const [showContact, setShowContact] = useState(false);
-
-  const handleChangeMensaje = (event) => {
-    setMensaje(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // sendEmail(mensaje)
-    console.log("Mensaje enviado:", mensaje);
-    setMensaje("");
-  };
 
   const handleGithubClickCalc = () => {
     window.open("https://github.com/Marcel-Carrillo/Calculadora");
@@ -77,7 +64,7 @@ export const Principal = () => {
         </Row>
       )} */}
       <div className="bodyPrincipal p-0">
-        <Row className="m-0">
+        <Row className="m-0" id="Inicio">
           <Col xs={12} md={12} lg={12} className="text-center coltitulo">
             <h1 className="titulo">Mi nombre es Marcel Carrillo</h1>
           </Col>
@@ -95,9 +82,9 @@ export const Principal = () => {
           </Col>
           <Col xs={1} md={2} lg={1}></Col>
         </Row>
-        <Row className="m-0">
+        <Row className="m-0" id="Tecnologias">
           <Col xs={12} md={12} lg={12} className="text-center">
-            <h1>Tecnologias</h1>
+            <h1 className="titulo">Tecnologias</h1>
           </Col>
           <Col xs={2} md={2} lg={1}></Col>
           <Col xs={8} md={8} lg={10} className="text-center divfront">
@@ -264,7 +251,7 @@ export const Principal = () => {
           </Col>
           <Col xs={3} md={2} lg={2}></Col>
         </Row>
-        <Row className="m-0">
+        <Row className="m-0" id="Proyectos">
           <Col xs={12} md={12} lg={12} className="text-center">
             <h1 className="titulo">Mis proyectos</h1>
           </Col>
@@ -351,6 +338,20 @@ export const Principal = () => {
             <img className="imgpro" src="biobuk.png" />
           </Col>
           <Col xs={1} md={1} lg={3} className="paddinggg"></Col>
+        </Row>
+        <Row className="m-0">
+          <Col xs={12} className="h1Front" id="Sobremi">
+          <h1 className="titulo">Sobre mi</h1>
+          </Col>
+          <Col></Col>
+          <Col xs={10} md={8} lg={8} className="divfront">
+          <p>Me llamo Marcel Carrillo, naci en Gelsenkirchen (Alemania).
+            He estado 10 años alistado en el ejercito profesional de la Armada Española, donde he realizado diferentes misiones de ayuda humanitaria como la "Operacion Atalanta", ayudando en la lucha contra la pirateria en el Golfo persico. Tambien he aprendido mucho con lo que respecta a la tecnologia militar ya que estuve destinado en un Buque de mando de la OTAN donde estabamos a la ultima en cuanto a lo tecnologico del momento.
+            Mas tarde cambie de sector y me fui al mundo del marketing digital y las consultorias Tecnologicas, asesorando a los diferente clientes profesionales del sector donde estuve 4 años aprendiendo mucho y trabajando para compañias tan importantes como Vodafone y Orange.
+            Finalmente ahora me encuentro inmerso en el mundo de la programacion y el desarrollo web que es mi pasion y donde quiero formarme profesionalmente y mejorar cada dia en lo que a este mundo se refiere.
+          </p>
+          </Col>
+          <Col></Col>
         </Row>
         <div class="light x1"></div>
         <div class="light x2"></div>
