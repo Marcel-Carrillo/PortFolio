@@ -16,8 +16,8 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
     <Row>
       <Col>
         <Navbar bg="light" variant="light" className="navbar" expand="lg">
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="m-2"/>
+          <Navbar.Collapse id="responsive-navbar-nav" className="md m-2">
             <Nav className="me-auto">
               <Nav.Link className="imgnav" href="#Inicio" >
                 Home

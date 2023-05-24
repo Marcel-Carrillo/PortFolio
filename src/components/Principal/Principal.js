@@ -66,9 +66,7 @@ export const Principal = () => {
       )} */}
       <div className="bodyPrincipal p-0">
         <Row className="m-0 vistacompleta" id="Inicio">
-        <Row>
-          <Col xs={1} md={2} lg={3}></Col>
-          <Col xs={10} md={5} lg={4} className="text-center">
+          <Col xs={12} md={5} lg={8} className="text-center">
             <h1 className="titulo2">Soy Marcel Carrillo</h1>
             <div className="divfront">
               <p>
@@ -78,16 +76,13 @@ export const Principal = () => {
               </p>
             </div>
           </Col>
-            <Col xs={12} md={3} lg={3}>
+            <Col xs={12} md={3} lg={4} className="colimg">
             <img className="imgyo imgtech" src="/Yo/marcel.jpeg" />
           </Col>
-        </Row>
-          <Row>
-            <Col xs={12} md={12} lg={12} className="flechita">
+          <Col xs={12} md={12} lg={12} className="flechita">
               <Nav.Link href="#Tecnologias" >
             <img className="imgtech2" src="/flecha.png"/>
               </Nav.Link></Col>
-          </Row>
         </Row>
         <Row className="m-0">
           <Col md={2} lg={3}></Col>
@@ -299,7 +294,7 @@ export const Principal = () => {
           <Col xs={12} md={10} lg={6} className="h1Front" id="Sobremi">
             <div className="pruebadiv">
             <h1 className="h1Front titulo">Sobre mi</h1>
-            <div className="divfront">
+            <div className="divfrontexto">
             <p className="textosobremi">
               Me llamo Marcel Carrillo, nací en Gelsenkirchen (Alemania). He
               estado 10 años alistado en el ejercito profesional de la Armada

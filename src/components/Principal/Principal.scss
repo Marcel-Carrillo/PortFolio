@@ -26,6 +26,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: transparent !important;
 }
 .imgnav {
   height: 50px;
@@ -65,13 +66,11 @@
 .imgtech {
   width: 120px;
   height: 120px;
-  object-fit: contain;
+  object-fit:contain;
   object-position: center;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
-}
-.flechita{
-  background-color: transparent !important;
+  // mix-blend-mode:multiply;
 }
 .imgtech2 {
   margin-top: 150px;
@@ -118,10 +117,27 @@
   padding: 30px;
   margin-bottom: 80px;
 }
+.divfrontexto {
+  display: flex;
+  justify-content: center;
+  background-color:transparent;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  width: fit-content;
+  align-items: center;
+  color: white;
+  padding: 30px;
+  margin-bottom: 80px;
+}
 .divfront:hover{
   border-color: black;
-  box-shadow: 0px 0px 6px 5px;
-transition: box-shadow 0.3s ease;;
+  box-shadow: 0px 0px 12px 3px;
+transition: box-shadow 0.6s ease;;
+}
+.divfrontexto:hover{
+  border-color: black;
+  box-shadow: 0px 0px 12px 3px;
+transition: box-shadow 0.6s ease;;
 }
 .divimg {
   color: black;
@@ -156,8 +172,32 @@ transition: box-shadow 0.3s ease;;
 h1{
   color: white;
 }
+.colimg{
+  display: flex;
+  justify-content: center;
+}
 
-
+@media (min-width:350px) and (max-width:760px) {
+  .titulo2{
+    margin-top: 100px;
+  }
+  .imgyo{
+    margin: 0;
+  }
+  .imgtech2 {
+    display: none;
+  }
+  .divfrontexto{
+    padding: 0;
+    padding-top: 10px;
+  }
+  .divfront{
+    margin-bottom: 10px;
+  }
+  .textosobremi{
+    width: 100%;
+  }
+}
 .light {
   position: absolute;
   width: 0px;
