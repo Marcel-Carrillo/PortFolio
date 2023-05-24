@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Kalam';
-    src: url('./font/Kalam.ttf') format('truetype');
+    src: url('../src/font/Kalam.ttf') format('truetype');
   }
-  
-  body {
-    font-family: 'Kalam', sans-serif;
+  *{
+    font-family: 'Kalam';
   }

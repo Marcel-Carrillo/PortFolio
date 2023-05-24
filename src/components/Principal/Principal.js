@@ -66,17 +66,17 @@ export const Principal = () => {
       <div className="bodyPrincipal p-0">
         <Row className="m-0" id="Inicio">
           <Col xs={12} md={12} lg={12} className="text-center coltitulo">
-            <h1 className="titulo">Mi nombre es Marcel Carrillo</h1>
+            <h1 className="titulo">Soy Marcel Carrillo</h1>
           </Col>
           <Col xs={1} md={2} lg={1}></Col>
           <Col xs={10} md={8} lg={10} className="text-center">
             <div className="divfront">
               <p>
-                Soy un apasionado de la tecnologia , estoy ahora inmerso en el
-                mundo de la programacion y el desarrollo web, por fin he dado
-                con lo que realmente me gusta que es la programacion, he estado
-                trabajando muchos años en temas tecnologicos y espero que
-                disfruteis viendo mi web.
+                Un apasionado de la tecnología , estoy ahora inmerso en el
+                mundo de la programación y el desarrollo web, por fin he dado
+                con lo que realmente me gusta que es la programación, he estado
+                trabajando muchos años en temas tecnológicos y espero que
+                disfruteis viendo mi espacio WEB.
               </p>
             </div>
           </Col>
@@ -84,13 +84,13 @@ export const Principal = () => {
         </Row>
         <Row className="m-0" id="Tecnologias">
           <Col xs={12} md={12} lg={12} className="text-center">
-            <h1 className="titulo">Tecnologias</h1>
+            <h1 className="titulo">Tecnologías</h1>
           </Col>
           <Col xs={2} md={2} lg={1}></Col>
           <Col xs={8} md={8} lg={10} className="text-center divfront">
             <p>
-              Por ahora estas son las tecnologias que he aprendido y en las que
-              sigo profundizando
+              Por ahora estas son las tecnologías que he aprendido y en las que
+              sigo profundizando.
             </p>
           </Col>
           <Col xs={2} md={2} lg={1}></Col>
@@ -201,7 +201,7 @@ export const Principal = () => {
         </Row>
         <Row className="m-0">
           <Col xs={12} className="text-center">
-            <h1>Trabajo en equipo y comunicacion</h1>
+            <h1>Trabajo en equipo y comunicación</h1>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
           <Col
@@ -258,8 +258,7 @@ export const Principal = () => {
           <Col xs={2} md={1} lg={1}></Col>
           <Col xs={8} md={10} lg={10} className="text-center divfront">
             <p>
-              Estos son los proyectos que he realizado durante mi formacion y
-              tambien algunas pruebas tecnicas que he realizado a posteriori.
+              Estos son los proyectos que he realizado durante mi formación.
             </p>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
@@ -271,7 +270,7 @@ export const Principal = () => {
           <Col xs={1} md={1} lg={3}></Col>
           <Col xs={10} md={10} lg={6} className="d-flex flex-column divfront">
             <img
-              className="imgnav"
+              className="imgnav2"
               src="github.png"
               onClick={handleGithubClickCalc}
             />
@@ -286,7 +285,7 @@ export const Principal = () => {
           <Col xs={1} md={1} lg={3}></Col>
           <Col xs={10} md={10} lg={6} className="d-flex flex-column divfront">
             <img
-              className="imgnav"
+              className="imgnav2"
               src="github.png"
               onClick={handleGithubClickInsta}
             />
@@ -301,7 +300,7 @@ export const Principal = () => {
           <Col xs={1} md={1} lg={3}></Col>
           <Col xs={10} md={10} lg={6} className="d-flex flex-column divfront">
             <img
-              className="imgnav"
+              className="imgnav2"
               src="github.png"
               onClick={handleGithubClickAll}
             />
@@ -316,7 +315,7 @@ export const Principal = () => {
           <Col xs={1} md={1} lg={3}></Col>
           <Col xs={10} md={10} lg={6} className="d-flex flex-column divfront">
             <img
-              className="imgnav"
+              className="imgnav2"
               src="github.png"
               onClick={handleGithubClickViajes}
             />
@@ -331,7 +330,7 @@ export const Principal = () => {
           <Col xs={1} md={1} lg={3}></Col>
           <Col xs={10} md={10} lg={6} className="d-flex flex-column divfront">
             <img
-              className="imgnav"
+              className="imgnav2"
               src="github.png"
               onClick={handleGithubClickBiobuk}
             />
@@ -345,10 +344,11 @@ export const Principal = () => {
           </Col>
           <Col></Col>
           <Col xs={10} md={8} lg={8} className="divfront">
-          <p>Me llamo Marcel Carrillo, naci en Gelsenkirchen (Alemania).
-            He estado 10 años alistado en el ejercito profesional de la Armada Española, donde he realizado diferentes misiones de ayuda humanitaria como la "Operacion Atalanta", ayudando en la lucha contra la pirateria en el Golfo persico. Tambien he aprendido mucho con lo que respecta a la tecnologia militar ya que estuve destinado en un Buque de mando de la OTAN donde estabamos a la ultima en cuanto a lo tecnologico del momento.
-            Mas tarde cambie de sector y me fui al mundo del marketing digital y las consultorias Tecnologicas, asesorando a los diferente clientes profesionales del sector donde estuve 4 años aprendiendo mucho y trabajando para compañias tan importantes como Vodafone y Orange.
-            Finalmente ahora me encuentro inmerso en el mundo de la programacion y el desarrollo web que es mi pasion y donde quiero formarme profesionalmente y mejorar cada dia en lo que a este mundo se refiere.
+          <p className="textosobremi">Me llamo Marcel Carrillo, nací en Gelsenkirchen (Alemania).
+            He estado 10 años alistado en el ejercito profesional de la Armada Española, donde he realizado diferentes misiones de ayuda humanitaria como la "Operacion Atalanta", ayudando en la lucha contra la pirateria en el Golfo pérsico. También he aprendido mucho con lo que respecta a la tecnologia militar ya que estuve destinado en un Buque de mando de la OTAN donde estábamos a la última en cuanto a lo tecnológico del momento.
+            Mas tarde cambie de sector y me fui al mundo del marketing digital y las consultorias Tecnológicas, asesorando a los diferente clientes profesionales del sector donde estuve 4 años aprendiendo mucho y trabajando para compañías tan importantes como Vodafone y Orange.
+            Finalmente ahora me encuentro inmerso en el mundo de la programación y el desarrollo web que es mi pasión y donde quiero formarme profesionalmente y mejorar cada dia en lo que a este mundo se refiere.
+            Me gustan los videojuegos, escuchar música y hacer deporte como andar en bicicleta, jugar al fútbol y al baloncesto.
           </p>
           </Col>
           <Col></Col>

@@ -39,6 +39,15 @@
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
 }
+.imgnav2{
+  height: 50px;
+  width: fit-content;
+  margin-bottom: 15px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
 .imgnav:hover {
   border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
   border-image-slice: 1;
@@ -46,6 +55,10 @@
 }
 .container {
   padding: 0 !important;
+}
+.textosobremi{
+  padding: 0 25px;
+  text-align: justify;
 }
 // .navbar {
 //   position: absolute !important;
@@ -68,13 +81,14 @@
   padding: 10px;
 }
 .divfront {
-  background-color: white;
+  background-color:transparent;
   border: 2px solid transparent;
   border-radius: 20px;
   padding: 50px;
   margin-bottom: 35px;
   width: fit-content;
   align-items: center;
+  color: white;
 }
 .divfront:hover{
   border-color: black;
@@ -94,7 +108,7 @@ transition: box-shadow 0.3s ease;;
 .divimg:hover {
   .spanhov {
     display: block;
-    color: black;
+    color: white;
   }
 }
 .titulo {
