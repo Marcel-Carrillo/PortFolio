@@ -176,10 +176,13 @@ h1{
   display: flex;
   justify-content: center;
 }
+.footerF{
+  margin-top: 150px !important;
+}
 
 @media (min-width:300px) and (max-width:760px) {
   .titulo{
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .titulo2{
     margin-top: 100px;
@@ -199,9 +202,6 @@ h1{
   }
   .textosobremi{
     width: 100%;
-  }
-  .footerFinal{
-    margin-top: 250px !important;
   }
 }
 .light {

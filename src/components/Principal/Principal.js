@@ -76,17 +76,17 @@ export const Principal = () => {
       )} */}
       <div className="bodyPrincipal p-0">
         <Row className="m-0 vistacompleta" id="Inicio">
-          <Col xs={12} md={5} lg={8} className="text-center">
+          <Col xs={12} md={6} lg={8} className="text-center">
             <h1 className="titulo2">Soy Marcel Carrillo</h1>
             <div className="divfront">
               <p>
-                Un apasionado de la tecnología , completamente inmerso en el mundo
+                Un apasionado de la tecnología, completamente inmerso en el mundo
                 de la programación y el desarrollo web, es mi pasión. Espero que
-                disfruteis viendo mi espacio WEB donde os voy a mostrar mis habilidades.
+                disfrutéis viendo mi espacio WEB donde os voy a mostrar mis habilidades.
               </p>
             </div>
           </Col>
-            <Col xs={12} md={3} lg={4} className="colimg">
+            <Col xs={12} md={6} lg={4} className="colimg">
             <img className="imgyo imgtech" src="/Yo/marcel.jpeg" alt="alt"/>
           </Col>
           <Col xs={12} md={12} lg={12} className="flechita">
@@ -355,11 +355,11 @@ export const Principal = () => {
           </Col>
           <Col md={1} lg={3}></Col>
         </Row>
-        <Row className="footerFinal">
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted w-100'>
+        <Row className="m-0 w-100">
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted footerF'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Derechos reservados®</span>
+          <span>Todos los derechos reservados®</span>
         </div>
       </section>
       <section className=''>
