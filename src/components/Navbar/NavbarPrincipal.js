@@ -36,7 +36,7 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
                 Download CV
               </Nav.Link>
               <Nav.Link className="imgnav" href="#Sobremi">
-                Sobre mi
+                Sobre mí
               </Nav.Link>
             </Nav>
             <Nav>

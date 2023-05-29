@@ -329,7 +329,7 @@ export const Principal = () => {
           <Col md={1} lg={3}></Col>
           <Col xs={12} md={10} lg={6} className="h1Front" id="Sobremi">
             <div className="pruebadiv">
-            <h1 className="h1Front titulo">Sobre mi</h1>
+            <h1 className="h1Front titulo">Sobre mí</h1>
             <div className="divfrontexto">
             <p className="textosobremi">
               Me llamo Marcel Carrillo, nací en Gelsenkirchen (Alemania). He
