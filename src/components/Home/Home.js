@@ -23,7 +23,7 @@ export const Home = () => {
       <p id="head4" class="header">
         de Marcel Carrillo
       </p>
-      <p id="head5" class="header">
+      <p id="head5" class="header ultimoP">
         Full Stack Web Developer
       </p>
       <button onClick={() => handleClick()} className="botonHome">

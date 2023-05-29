@@ -205,7 +205,7 @@ export const Principal = () => {
           </Col>
           <Col lg={3}>
             <div className="pruebadiv">
-              <h1 className="h1front">Metodologias de trabajo</h1>
+              <h1 className="h1front">Metodologías de trabajo</h1>
               <div className="divfront d-flex flex-column flex-md-row">
                 {metodologias.map((technology, index) => (
                   <div className="divimg" key={index}>
@@ -230,7 +230,7 @@ export const Principal = () => {
           <Col xs={2} md={1} lg={1}></Col>
           <Col xs={8} md={10} lg={10} className="text-center divfront">
             <p>
-              Estos son los proyectos que he realizado durante mi formación.
+              Estos son los proyectos que realizé durante mi formación.
             </p>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
@@ -335,20 +335,20 @@ export const Principal = () => {
               Me llamo Marcel Carrillo, nací en Gelsenkirchen (Alemania). He
               estado 10 años alistado en el ejercito profesional de la Armada
               Española, donde he realizado diferentes misiones de ayuda
-              humanitaria como la "Operacion Atalanta", ayudando en la lucha
-              contra la pirateria en el Golfo pérsico. También he aprendido
-              mucho con lo que respecta a la tecnologia militar ya que estuve
+              humanitaria como la "Operación Atalanta", ayudando en la lucha
+              contra la piratería en el Golfo pérsico. También he aprendido
+              mucho con lo que respecta a la tecnología militar ya que estuve
               destinado en un Buque de mando de la OTAN donde estábamos a la
-              última en cuanto a lo tecnológico del momento. Mas tarde cambie de
-              sector y me fui al mundo del marketing digital y las consultorias
+              última en cuanto a lo tecnológico del momento. Más tarde cambié de
+              sector y me fui al mundo del marketing digital y las consultorías
               Tecnológicas, asesorando a los diferente clientes profesionales
               del sector donde estuve 4 años aprendiendo mucho y trabajando para
               compañías tan importantes como Vodafone y Orange. Finalmente ahora
               me encuentro inmerso en el mundo de la programación y el
               desarrollo web que es mi pasión y donde quiero formarme
-              profesionalmente y mejorar cada dia en lo que a este mundo se
+              profesionalmente y mejorar cada día en lo que a este mundo se
               refiere. Me gustan los videojuegos, escuchar música y hacer
-              deporte como andar en bicicleta, jugar al fútbol y al baloncesto.
+              deporte como montar en bicicleta, jugar al fútbol y al baloncesto.
             </p>
             </div>
             </div>
@@ -371,7 +371,7 @@ export const Principal = () => {
                 Hasta pronto
               </h6>
               <p>
-                Muchas gracias por visitarme, cualquier consulta al respecto del contenido estare encantado de resolverlo.
+                Muchas gracias por visitarme, cualquier consulta al respecto del contenido estaré encantado de resolverlo.
               </p>
             </MDBCol>
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
