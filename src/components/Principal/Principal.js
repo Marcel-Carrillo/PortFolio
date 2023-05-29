@@ -355,7 +355,8 @@ export const Principal = () => {
           </Col>
           <Col md={1} lg={3}></Col>
         </Row>
-         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted w-100'>
+        <Row className="footerFinal">
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted w-100'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Derechos reservados®</span>
@@ -398,6 +399,7 @@ export const Principal = () => {
         </a>
       </div>
     </MDBFooter>
+        </Row>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>

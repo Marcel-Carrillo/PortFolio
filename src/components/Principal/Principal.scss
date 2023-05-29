@@ -177,7 +177,7 @@ h1{
   justify-content: center;
 }
 
-@media (min-width:350px) and (max-width:760px) {
+@media (min-width:300px) and (max-width:760px) {
   .titulo{
     margin-top: 50px;
   }
@@ -199,6 +199,9 @@ h1{
   }
   .textosobremi{
     width: 100%;
+  }
+  .footerFinal{
+    margin-top: 250px !important;
   }
 }
 .light {
