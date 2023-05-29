@@ -50,12 +50,6 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
                 src="github.png"
                 onClick={handleGithubClick}
               />
-              <Nav.Link
-                className="imgnav"
-                onClick={() => setShowContact(!showContact)}
-              >
-                Contactar
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

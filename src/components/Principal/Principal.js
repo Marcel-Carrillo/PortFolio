@@ -1,7 +1,8 @@
 import { React, useState } from "react";
-import { Row, Col, Nav } from "react-bootstrap";
+import { Row, Col, Nav} from "react-bootstrap";
 import "./Principal.scss";
 import { NavbarPrincipal } from "../Navbar/NavbarPrincipal";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 export const Principal = () => {
   const [showContact, setShowContact] = useState(false);
@@ -20,6 +21,15 @@ export const Principal = () => {
   };
   const handleGithubClickBiobuk = () => {
     window.open("https://github.com/Marcel-Carrillo/Biobuk");
+  };
+  const handleYoutubeClickCalc = () => {
+    window.open("https://www.linkedin.com/posts/marcel-carrillo_html-javascript-css-activity-7023895322426814465-5Ak7?utm_source=share&utm_medium=member_desktop");
+  };
+  const handleYoutubeClickAll = () => {
+    window.open("https://www.youtube.com/watch?v=v2B8D3ATP50&t=11s");
+  };
+  const handleYoutubeClickBiobuk = () => {
+    window.open("https://www.youtube.com/watch?v=gYZQVz66hAM");
   };
 
   const frontEnd = ["react.png", "javascript.png", "typescript.png"];
@@ -77,11 +87,11 @@ export const Principal = () => {
             </div>
           </Col>
             <Col xs={12} md={3} lg={4} className="colimg">
-            <img className="imgyo imgtech" src="/Yo/marcel.jpeg" />
+            <img className="imgyo imgtech" src="/Yo/marcel.jpeg" alt="alt"/>
           </Col>
           <Col xs={12} md={12} lg={12} className="flechita">
               <Nav.Link href="#Tecnologias" >
-            <img className="imgtech2" src="/flecha.png"/>
+            <img className="imgtech2" src="/flecha.png" alt="alt"/>
               </Nav.Link></Col>
         </Row>
         <Row className="m-0">
@@ -229,12 +239,20 @@ export const Principal = () => {
           <Col lg={6}>
             <div className="pruebadiv"> <h1 className="h1Front">Calculadora</h1>
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
-              <img
+              <div className="ordenicons"><img
                 className="imgnav2"
                 src="github.png"
-                onClick={handleGithubClickCalc}
+                onClick={handleGithubClickCalc} 
+                alt="alt"
               />
-              <img className="imgpro" src="calculadora.png" />
+              <img
+                className="imgnav2"
+                src="youtube.png"
+                onClick={handleYoutubeClickCalc}
+                alt="alt"
+              /></div>
+              
+              <img className="imgpro" src="calculadora.png" alt="alt"/>
             </div></div>
            
           </Col>
@@ -245,8 +263,9 @@ export const Principal = () => {
                 className="imgnav2"
                 src="github.png"
                 onClick={handleGithubClickInsta}
+                alt="alt"
               />
-              <img className="imgpro" src="instagram.png" />
+              <img className="imgpro" src="instagram.png" alt="alt"/>
             </div></div>
           </Col>
         </Row>
@@ -254,12 +273,20 @@ export const Principal = () => {
           <Col lg={6}>
             <div className="pruebadiv"> <h1 className="h1Front">Proyecto club de cine</h1>
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
-              <img
+              <div><img
                 className="imgnav2"
                 src="github.png"
                 onClick={handleGithubClickAll}
+                alt="alt"
               />
-              <img className="imgpro" src="allcinema.png" />
+              <img
+                className="imgnav2"
+                src="youtube.png"
+                onClick={handleYoutubeClickAll}
+                alt="alt"
+              /></div>
+              
+              <img className="imgpro" src="allcinema.png" alt="alt"/>
             </div></div>
           </Col>
           <Col lg={6}>
@@ -269,8 +296,9 @@ export const Principal = () => {
                 className="imgnav2"
                 src="github.png"
                 onClick={handleGithubClickViajes}
+                alt="alt"
               />
-              <img className="imgpro" src="viajes.png" />
+              <img className="imgpro" src="viajes.png" alt="alt"/>
             </div></div>
           </Col>
         </Row>
@@ -279,12 +307,20 @@ export const Principal = () => {
           <Col lg={6}>
             <div className="pruebadiv"> <h1 className="h1Front">MVP Biobuk</h1>
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
-              <img
+              <div><img
                 className="imgnav2"
                 src="github.png"
                 onClick={handleGithubClickBiobuk}
+                alt="alt"
               />
-              <img className="imgpro" src="biobuk.png" />
+              <img
+                className="imgnav2"
+                src="youtube.png"
+                onClick={handleYoutubeClickBiobuk}
+                alt="alt"
+              /></div>
+              
+              <img className="imgpro" src="biobuk.png" alt="alt"/>
             </div></div>
           </Col>
           <Col lg={3}></Col>
@@ -319,6 +355,49 @@ export const Principal = () => {
           </Col>
           <Col md={1} lg={3}></Col>
         </Row>
+         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted w-100'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Derechos reservados®</span>
+        </div>
+      </section>
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon color='secondary' icon='gem' className='me-3' />
+                Hasta pronto
+              </h6>
+              <p>
+                Muchas gracias por visitarme, cualquier consulta al respecto del contenido estare encantado de resolverlo.
+              </p>
+            </MDBCol>
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-3' />
+                Benalmádena , Málaga
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                mcarhue.ti@gmail.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> +34 654703621
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2023 -
+        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+          Marcel Carrillo Huerta-
+        </a>
+      </div>
+    </MDBFooter>
         <div class="light x1"></div>
         <div class="light x2"></div>
         <div class="light x3"></div>
