@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Nav, Navbar, Row, Col } from "react-bootstrap";
 import Curriculum from "../Descargas/Curriculum.pdf";
 import "./NavbarPrincipal.scss"
@@ -41,11 +41,13 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
             </Nav>
             <Nav>
               <img
+              alt="alt"
                 className="imgnav"
                 src="linkedIn.png"
                 onClick={handleLinkedInClick}
               />
               <img
+              alt="alt"
                 className="imgnav"
                 src="github.png"
                 onClick={handleGithubClick}
