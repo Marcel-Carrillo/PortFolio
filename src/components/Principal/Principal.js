@@ -100,7 +100,7 @@ export const Principal = () => {
             <h1 className="h1Front titulo">Tecnologías</h1>
             <div className="text-center divfront">
               <p>
-                Por ahora estas son las tecnologías que he aprendido y en las
+                Por ahora éstas son las tecnologías que he aprendido y en las
                 que sigo profundizando.
               </p>
             </div>
@@ -230,7 +230,7 @@ export const Principal = () => {
           <Col xs={2} md={1} lg={1}></Col>
           <Col xs={8} md={10} lg={10} className="text-center divfront">
             <p>
-              Estos son los proyectos que realicé durante mi formación.
+              Éstos son los proyectos que realicé durante mi formación.
             </p>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
@@ -333,17 +333,17 @@ export const Principal = () => {
             <div className="divfrontexto">
             <p className="textosobremi">
               Me llamo Marcel Carrillo, nací en Gelsenkirchen (Alemania). He
-              estado 10 años alistado en el ejercito profesional de la Armada
+              estado 10 años alistado en el ejército profesional de la Armada
               Española, donde he realizado diferentes misiones de ayuda
               humanitaria como la "Operación Atalanta", ayudando en la lucha
-              contra la piratería en el Golfo pérsico. También he aprendido
+              contra la piratería en el Golfo Pérsico. También he aprendido
               mucho con lo que respecta a la tecnología militar ya que estuve
-              destinado en un Buque de mando de la OTAN donde estábamos a la
+              destinado en un buque de mando de la OTAN donde estábamos a la
               última en cuanto a lo tecnológico del momento. Más tarde cambié de
               sector y me fui al mundo del marketing digital y las consultorías
-              Tecnológicas, asesorando a los diferente clientes profesionales
+              tecnológicas, asesorando a los diferente clientes profesionales
               del sector donde estuve 4 años aprendiendo mucho y trabajando para
-              compañías tan importantes como Vodafone y Orange. Finalmente ahora
+              compañías tan importantes como Vodafone y Orange. Finalmente, ahora
               me encuentro inmerso en el mundo de la programación y el
               desarrollo web que es mi pasión y donde quiero formarme
               profesionalmente y mejorar cada día en lo que a este mundo se
