@@ -100,7 +100,7 @@ export const Principal = () => {
             <h1 className="h1Front titulo">Tecnologías</h1>
             <div className="text-center divfront">
               <p>
-                Por ahora éstas son las tecnologías que he aprendido y en las
+                Por ahora estas son las tecnologías que he aprendido y en las
                 que sigo profundizando.
               </p>
             </div>
@@ -230,7 +230,7 @@ export const Principal = () => {
           <Col xs={2} md={1} lg={1}></Col>
           <Col xs={8} md={10} lg={10} className="text-center divfront">
             <p>
-              Éstos son los proyectos que realicé durante mi formación.
+              Estos son los proyectos que realicé durante mi formación.
             </p>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
