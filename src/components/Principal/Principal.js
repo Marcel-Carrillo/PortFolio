@@ -230,7 +230,7 @@ export const Principal = () => {
           <Col xs={2} md={1} lg={1}></Col>
           <Col xs={8} md={10} lg={10} className="text-center divfront">
             <p>
-              Estos son los proyectos que realicé durante mi formación.
+              Estos son algunos de los proyecto que he realizado.
             </p>
           </Col>
           <Col xs={2} md={1} lg={1}></Col>
