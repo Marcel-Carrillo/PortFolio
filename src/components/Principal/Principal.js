@@ -3,6 +3,13 @@ import { Row, Col, Nav} from "react-bootstrap";
 import "./Principal.scss";
 import { NavbarPrincipal } from "../Navbar/NavbarPrincipal";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import githubIcon from '../../assets/images/github.png';
+import youtubeIcon from '../../assets/images/youtube.png';
+import calculadoraImg from '../../assets/images/Calculadora.png';
+import instagramImg from '../../assets/images/instagram.png';
+import allCinemaImg from '../../assets/images/allcinema.png';
+import biobukImg from '../../assets/images/biobuk.png';
+import viajesImg from '../../assets/images/viajes.png';
 
 export const Principal = () => {
   const [showContact, setShowContact] = useState(false);
@@ -239,20 +246,21 @@ export const Principal = () => {
           <Col lg={6}>
             <div className="pruebadiv"> <h1 className="h1Front">Calculadora</h1>
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
-              <div className="ordenicons"><img
+              <div className="ordenicons">
+                <img
                 className="imgnav2"
-                src="github.png"
+                src={githubIcon}
                 onClick={handleGithubClickCalc} 
                 alt="alt"
               />
               <img
                 className="imgnav2"
-                src="youtube.png"
+                src={youtubeIcon}
                 onClick={handleYoutubeClickCalc}
                 alt="alt"
               /></div>
               
-              <img className="imgpro" src="calculadora.png" alt="alt"/>
+              <img className="imgpro" src={calculadoraImg} alt="alt"/>
             </div></div>
            
           </Col>
@@ -261,11 +269,11 @@ export const Principal = () => {
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
               <img
                 className="imgnav2"
-                src="github.png"
+                src={githubIcon}
                 onClick={handleGithubClickInsta}
                 alt="alt"
               />
-              <img className="imgpro" src="instagram.png" alt="alt"/>
+              <img className="imgpro" src={instagramImg} alt="alt"/>
             </div></div>
           </Col>
         </Row>
@@ -275,18 +283,18 @@ export const Principal = () => {
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
               <div><img
                 className="imgnav2"
-                src="github.png"
+                src={githubIcon}
                 onClick={handleGithubClickAll}
                 alt="alt"
               />
               <img
                 className="imgnav2"
-                src="youtube.png"
+                src={youtubeIcon}
                 onClick={handleYoutubeClickAll}
                 alt="alt"
               /></div>
               
-              <img className="imgpro" src="allcinema.png" alt="alt"/>
+              <img className="imgpro" src={allCinemaImg} alt="alt"/>
             </div></div>
           </Col>
           <Col lg={6}>
@@ -294,11 +302,11 @@ export const Principal = () => {
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
               <img
                 className="imgnav2"
-                src="github.png"
+                src={githubIcon}
                 onClick={handleGithubClickViajes}
                 alt="alt"
               />
-              <img className="imgpro" src="viajes.png" alt="alt"/>
+              <img className="imgpro" src={viajesImg} alt="alt"/>
             </div></div>
           </Col>
         </Row>
@@ -309,18 +317,18 @@ export const Principal = () => {
             <div xs={10} md={10} lg={6} className="d-flex flex-column divfront">
               <div><img
                 className="imgnav2"
-                src="github.png"
+                src={githubIcon}
                 onClick={handleGithubClickBiobuk}
                 alt="alt"
               />
               <img
                 className="imgnav2"
-                src="youtube.png"
+                src={youtubeIcon}
                 onClick={handleYoutubeClickBiobuk}
                 alt="alt"
               /></div>
               
-              <img className="imgpro" src="biobuk.png" alt="alt"/>
+              <img className="imgpro" src={biobukImg} alt="alt"/>
             </div></div>
           </Col>
           <Col lg={3}></Col>
