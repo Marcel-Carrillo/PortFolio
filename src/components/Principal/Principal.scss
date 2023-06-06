@@ -38,9 +38,7 @@
 }
 .imgnav2 {
   height: 50px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 50px;
   margin-bottom: 15px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -123,9 +121,7 @@
   background-color: transparent;
   border: 2px solid transparent;
   border-radius: 20px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: auto;
   align-items: center;
   color: white;
   padding: 30px;
@@ -137,9 +133,7 @@
   background-color: transparent;
   border: 2px solid transparent;
   border-radius: 20px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width:auto;
   align-items: center;
   color: white;
   padding: 30px;
