@@ -28,9 +28,7 @@
 }
 .imgnav {
   height: 50px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 50px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;

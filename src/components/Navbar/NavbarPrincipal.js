@@ -19,23 +19,23 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="m-2"/>
           <Navbar.Collapse id="responsive-navbar-nav" className="md m-2">
             <Nav className="me-auto">
-              <Nav.Link className="imgnav" href="#Inicio" >
+              <Nav.Link className="" href="#Inicio" >
                 Home
               </Nav.Link>
-              <Nav.Link className="imgnav" href="#Tecnologias" >
+              <Nav.Link className="" href="#Tecnologias" >
                 Tecnologias
               </Nav.Link>
-              <Nav.Link className="imgnav" href="#Proyectos" >
+              <Nav.Link className="" href="#Proyectos" >
                 Proyectos
               </Nav.Link>
               <Nav.Link
-                className="imgnav"
+                className=""
                 href={Curriculum}
                 download="Curriculum.pdf"
               >
                 Download CV
               </Nav.Link>
-              <Nav.Link className="imgnav" href="#Sobremi">
+              <Nav.Link className="" href="#Sobremi">
                 Sobre mí
               </Nav.Link>
             </Nav>
