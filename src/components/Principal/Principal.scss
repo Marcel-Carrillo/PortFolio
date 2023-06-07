@@ -36,6 +36,10 @@
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
 }
+.enlacesNav{
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
 .imgnav2 {
   height: 50px;
   width: 50px;
@@ -48,6 +52,12 @@
   transition: border-color 0.3s ease;
 }
 .imgnav:hover {
+  -o-border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+  border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+  border-image-slice: 1;
+  font-size: bold;
+}
+.enlacesNav:hover{
   -o-border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
   border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
   border-image-slice: 1;
