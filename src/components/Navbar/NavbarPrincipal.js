@@ -31,7 +31,7 @@ export const NavbarPrincipal = ({ showContact, setShowContact }) => {
               <Nav.Link
                 className=""
                 href={Curriculum}
-                download="Curriculum.pdf"
+                download="CV-MarcelCarrillo.pdf"
               >
                 Download CV
               </Nav.Link>
