@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Row, Col } from "react-bootstrap";
-import Curriculum from "../Descargas/Curriculum.pdf";
+import Curriculum from "../Descargas/CV-MarcelCarrillo.pdf";
 import "./NavbarPrincipal.scss"
 
 export const NavbarPrincipal = ({ showContact, setShowContact }) => {
