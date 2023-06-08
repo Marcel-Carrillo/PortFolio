@@ -8,13 +8,11 @@ import { Error } from "../components/Error/Error";
 export const PortBrowser = () => {
   return (
     <Container fluid>
-      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Principal" element={<Principal />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </HashRouter>
     </Container>
   );
 };
