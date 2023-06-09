@@ -67,7 +67,7 @@ export const Principal = () => {
               <p>
                 Un apasionado de la tecnología, completamente inmerso en el mundo
                 de la programación y el desarrollo web, es mi pasión. Espero que
-                disfrutéis viendo mi espacio WEB donde os voy a mostrar mis habilidades.PRUEBA
+                disfrutéis viendo mi espacio WEB donde os voy a mostrar mis habilidades.
               </p>
             </div>
           </Col>
