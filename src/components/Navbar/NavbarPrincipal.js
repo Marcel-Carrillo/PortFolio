@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, Navbar, Row, Col } from "react-bootstrap";
 import Curriculum from "../Descargas/CV-MarcelCarrillo.pdf";
 import "./NavbarPrincipal.scss"
+import { Link } from "react-router-dom";
 
 export const NavbarPrincipal = ({ showContact, setShowContact }) => {
   const handleLinkedInClick = () => {
