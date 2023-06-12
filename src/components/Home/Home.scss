@@ -37,6 +37,47 @@ margin: auto;
 transition: .3s;
 }
 
+@keyframes glowing {
+  0% {
+      background-position: 0 0;
+  }
+  50% {
+      background-position: 400% 0;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
+
+.button-cont{
+  background-color: rgb(39, 57, 158);
+  cursor: pointer;
+  border: none;
+  /* width: 15%; */
+  padding: 16px 32px;
+  color: aliceblue;
+  margin: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  border-radius: 15px;
+  /* z-index: 0; */
+}
+.button-cont::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(252, 250, 250), rgb(39, 57, 158), rgb(252, 252, 252), rgb(39, 57, 158), rgb(243, 241, 241), rgb(79, 101, 226), rgb(39, 57, 158) );
+  background-size: 800%;
+  border-radius: 15px;
+  filter: blur(8px);
+  animation: glowing 80s linear infinite;
+}
+
 @media (min-width:250px) and (max-width:760px) {
 .botonHome{
   margin-bottom: 280px !important;

@@ -26,8 +26,8 @@ export const Home = () => {
       <p id="head5" class="header ultimoP">
         Full Stack Web Developer
       </p>
-      <button onClick={() => handleClick()} className="botonHome">
-        Continue
+      <button onClick={() => handleClick()} className="button-cont">
+        Continuar
       </button>
       <div class="light x1"></div>
       <div class="light x2"></div>
