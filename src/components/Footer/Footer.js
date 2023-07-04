@@ -45,6 +45,7 @@ export const Footer = () => {
         <a className='text-reset fw-bold' href="#Home">
           Marcel Carrillo Huerta-
         </a>
+        <p>Version 1.01</p>
       </div>
     </MDBFooter>
         </Row>
