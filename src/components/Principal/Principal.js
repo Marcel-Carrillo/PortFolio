@@ -39,8 +39,8 @@ export const Principal = () => {
     window.open("https://www.youtube.com/watch?v=gYZQVz66hAM");
   };
 
-  const frontEnd = ["react.png", "javascript.png", "typescript.png"];
-  const backEnd = ["node.png", "express.png", "mysql.png"];
+  const frontEnd = ["react.png", "javascript.png", "typescript.png","angular.png"];
+  const backEnd = ["node.png", "express.png", "mysql.png","java.png","springboot.png"];
   const diseño = [
     "html5.png",
     "css3.png",
@@ -48,8 +48,8 @@ export const Principal = () => {
     "bootstrap.png",
     "flexbox.png",
   ];
-  const desarrollo = ["vscode.png", "terminal.png"];
-  const trabajo = ["github.png", "teams.png", "slack.png", "discord.png"];
+  const desarrollo = ["vscode.png", "terminal.png", "springtool.png", "maven.png"];
+  const trabajo = ["github.png", "teams.png", "slack.png", "discord.png","gitkraken.png"];
   const metodologias = ["agile.png", "scrum.png"];
 
 
@@ -99,7 +99,7 @@ export const Principal = () => {
           <Col md={2} lg={3}></Col>
         </Row>
         <Row className="m-0">
-          <Col lg={3} >
+          <Col lg={12} >
             <div className="pruebadiv">
               <h1 className="h1Front">Front-end</h1>
               <div className="divfront d-flex flex-column flex-md-row">
@@ -118,7 +118,7 @@ export const Principal = () => {
               </div>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={12}>
             <div className="pruebadiv">
               <h1 className="h1Front">Back-end</h1>
               <div className="divfront d-flex flex-column flex-md-row">
@@ -137,7 +137,7 @@ export const Principal = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={12}>
             <div className="pruebadiv">
               <h1 className="h1Front">Diseño y maquetación</h1>
               <div className="divfront d-flex flex-column flex-md-row">
@@ -156,7 +156,7 @@ export const Principal = () => {
               </div>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={12}>
             <div className="pruebadiv">
               <h1 className="h1Front">Herramientas de desarrollo</h1>
               <div className="divfront d-flex flex-column flex-md-row">
@@ -175,7 +175,7 @@ export const Principal = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={12}>
             <div className="pruebadiv">
               <h1 className="h1front">Trabajo en equipo y comunicación</h1>
               <div className="divfront d-flex flex-column flex-md-row">
@@ -194,7 +194,7 @@ export const Principal = () => {
               </div>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={12}>
             <div className="pruebadiv">
               <h1 className="h1front">Metodologías de trabajo</h1>
               <div className="divfront d-flex flex-column flex-md-row">
