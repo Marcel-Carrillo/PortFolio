@@ -67,7 +67,11 @@ export const Principal = () => {
               <p>
                 Un apasionado de la tecnología, completamente inmerso en el mundo
                 de la programación y el desarrollo web, es mi pasión. Espero que
-                disfrutéis viendo mi espacio WEB donde os voy a mostrar mis habilidades.
+                disfrutéis viendo mi espacio WEB.
+                Este portfolio lo he creado usando tecnologías como JavaScript,Node,Express,React,Scss. 
+                Un poco mas abajo podeis ver diferentes proyectos que he realizado con estas tecnologías y 
+                también usando base de datos realicional con MySql.
+                Espero que os guste!! 
               </p>
             </div>
           </Col>
