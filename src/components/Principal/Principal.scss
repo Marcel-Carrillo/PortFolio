@@ -200,14 +200,15 @@ h1 {
 }
 
 @media screen and (min-width: 290px) and (max-width: 800px) {
-  .titulo {
-    margin-top: 150px;
+  .titulot {
+    margin-top: 290px;
   }
   .titulo2 {
     margin-top: 100px;
+    margin-bottom: 30px;
   }
   .imgyo {
-    margin: 0;
+    margin-top:30px;
   }
   .imgtech2 {
     display: none;
@@ -223,7 +224,7 @@ h1 {
     width: 100%;
   }
   .footerF {
-    margin-top: 350px !important;
+    margin-top: 400px !important;
   }
   .pruebadiv {
     margin-bottom: 150px !important;
