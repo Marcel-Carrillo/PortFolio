@@ -49,8 +49,9 @@ export const Principal = () => {
     "flexbox.png",
   ];
   const desarrollo = ["vscode.png", "terminal.png", "springtool.png", "maven.png"];
-  const trabajo = ["github.png", "teams.png", "slack.png", "discord.png","gitkraken.png"];
+  const trabajo = ["github.png", "teams.png", "slack.png", "discord.png","gitkraken.png", "AzureDevops.png"];
   const metodologias = ["agile.png", "scrum.png"];
+  const cloud = ["aws.png", "azure.png"];
 
 
   return (
@@ -161,6 +162,25 @@ export const Principal = () => {
               <h1 className="h1Front">Herramientas de desarrollo</h1>
               <div className="divfront d-flex flex-column flex-md-row">
                 {desarrollo.map((technology, index) => (
+                  <div className="divimg" key={index}>
+                    <img
+                      className="imgtech mx-auto d-block text-center"
+                      src={technology}
+                      alt={technology}
+                    />
+                    <span className="spanhov">
+                      {technology.replace(".png", "").toUpperCase()}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Col>
+          <Col lg={12}>
+            <div className="pruebadiv">
+              <h1 className="h1Front">Cloud</h1>
+              <div className="divfront d-flex flex-column flex-md-row">
+                {cloud.map((technology, index) => (
                   <div className="divimg" key={index}>
                     <img
                       className="imgtech mx-auto d-block text-center"
